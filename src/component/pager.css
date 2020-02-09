@@ -1,0 +1,31 @@
+.pager {
+    width:600px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    color: rgb(0, 0, 204);
+    cursor: pointer;
+    margin:0 4px;
+}
+
+.item:hover {
+    border: 1px solid #38f;
+    background-color: #f2f8ff;
+}
+
+.item.disabled {
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #ccc;
+}
+.item.active{
+    border:none;
+    background-color: #fff;
+    color:#f40;
+}
