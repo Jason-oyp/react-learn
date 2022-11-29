@@ -1,0 +1,17 @@
+.layout {
+    display: flex;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.aside-left, .aside-right {
+    border: 1px solid black;
+}
+
+.aside-left {
+    order: -1
+}
+
+.main {
+    flex: 1
+}
